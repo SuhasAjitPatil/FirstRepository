@@ -3,8 +3,12 @@ My First Git Folder
 mkdir
 dir
 notepad myGit
-git init - Initializes root folder
-git status - Tells current status of folder and all files in it.
+git init  ->Initializes root folder
+git status -> Tells current status of folder and all files in it.
 git add myGit.txt
 git rm --cached myGit.txt
 git add .
+git rm -r --cached .
+git commit -m "Initial Commit"
+git config --global --edit --> To change the configuration settings
+git log
