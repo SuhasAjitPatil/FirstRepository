@@ -12,3 +12,5 @@ git rm -r --cached .
 git commit -m "Initial Commit"
 git config --global --edit --> To change the configuration settings
 git log
+git diff myGit.txt
+git show
